@@ -17,13 +17,12 @@
 #addressCA, #addressNY {
 	display:none;
 }
-
 .reveal {
 	display:block;
 } 
 */
 
-.navbar.navbar-default.navbar-fixed-top {
+.navbar.navbar-default {
 	background-color:transparent;
 	border:transparent;
 }
@@ -39,7 +38,11 @@
 }
 
 .nav {
-	padding: 15px 20px 50px 0px;
+	padding: 15px 20px 0px 0px;
+}
+
+.navbar {
+	margin:0;
 }
 
 .navbar a {
@@ -50,7 +53,7 @@
 
 .social-media img {
 	height:25px;
-	width:25px;
+	width:25px; 
 }
 
 #home-video {
@@ -66,10 +69,8 @@
 	overflow: hidden;
 }
 
-.project-grid img {
-	height: 235px;
-	width:245px;
-	display:inline-block;
+.col-xs-12.col-sm-12.col-md-6.col-lg-3 img {
+	width:100%;
 }
 
 #contact-text a {
@@ -80,13 +81,13 @@
 	font-style:normal;
 }
 
-#SanMo h1{
+#SanMo h1, #NY h1{
 	text-decoration: none;
 	font-family: "Josefin Sans";
 	font-size: 20px;
 	color:black;
-	border-right:4px solid black;
-	padding-right: 7px;
+	margin-top:7px;
+	margin-bottom: 2px;
 }
 
 #SanMo a{
@@ -98,19 +99,30 @@
 	text-align: left;
 }
 
-#NY h2{
-	text-decoration: none;
-	font-family: "Josefin Sans";
-	font-size: 20px;
-	color:black;
-
-}
-
-#NY a{
-	font-family: "Josefin Sans";
+#NY li, #NY a {
 	font-family: "Josefin Sans";
 	font-size: 14px;
 	color:black;
 	text-decoration: none;
 	text-align: left;
+	list-style: none;
 }
+
+ul {
+	padding:0;
+	list-style: none;
+}
+
+.left-buffer {
+	padding: 0 0 0 56px;
+}
+
+.address {
+	width:13%;
+}
+
+.buffer-vertical {
+	padding: 100px 0 40px;
+}
+
+
