@@ -1,60 +1,33 @@
-/*
-#request a {
-	font-family: "Josefin Sans";
-	color: #FF1975;
-	font-size:28px;
-	font-weight:900;
-	text-decoration:none;
-	margin:auto;
-	position:relative;
-	bottom: 25px;
-	left:550px;
-	margin-top:65px;
-	padding: 10px 10px 10px 10px;
-	border: 4px solid #ff1975;
-}
+/* Navigation */
+	.navbar.navbar-default {
+		background-color:transparent;
+		border:transparent;
+	}
 
-#addressCA, #addressNY {
-	display:none;
-}
-.reveal {
-	display:block;
-} 
-*/
+	.navbar-brand {
+		font-size: 68px !important;
+		font-family: "Josefin Sans";
+		color:black;
+		text-decoration: none;
+		font-weight:900;
+		text-transform: uppercase;
+		margin-top:25px;
+	}
 
-.navbar.navbar-default {
-	background-color:transparent;
-	border:transparent;
-}
+	.nav {
+		padding: 15px 20px 0px 0px;
+	}
 
-.navbar-brand {
-	font-size: 68px !important;
-	font-family: "Josefin Sans";
-	color:black;
-	text-decoration: none;
-	font-weight:900;
-	text-transform: uppercase;
-	margin-top:25px;
-}
+	.navbar {
+		margin:0;
+	}
 
-.nav {
-	padding: 15px 20px 0px 0px;
-}
-
-.navbar {
-	margin:0;
-}
-
-.navbar a {
-	font-family: "Josefin Sans";
-	font-size: 20px;
-	text-decoration: none;
-}
-
-.social-media img {
-	height:25px;
-	width:25px; 
-}
+	.navbar a {
+		font-family: "Josefin Sans";
+		font-size: 20px;
+		text-decoration: none;
+		color: #000 !important;
+	}
 
 #home-video {
 	position: fixed;
@@ -73,12 +46,18 @@
 	width:100%;
 }
 
-#contact-text a {
-	font-family: "Josefin Sans";
-	color: black;
-	text-decoration: none;
-	font-size: 18px;
-	font-style:normal;
+/* Contact Us */
+	#contact-text a {
+		font-family: "Josefin Sans";
+		color: black;
+		text-decoration: none;
+		font-size: 18px;
+		font-style:normal;
+		margin-top: 50px;
+	}
+
+	#contact-text a:hover {
+		color:#C71585;
 }
 
 #SanMo h1, #NY h1{
@@ -122,7 +101,124 @@ ul {
 }
 
 .buffer-vertical {
-	padding: 100px 0 40px;
+	padding: 50px 0 40px;
 }
+
+.buffer-top {
+	padding: 50px 0 0 0 ;
+}
+
+/* Request Button */
+	#request {
+		display:block;
+		text-align: center;
+	}
+
+	#request a {
+	  text-decoration:none;
+	  color:black;
+	  overflow:hidden;
+	  margin:0.75em;
+	}
+
+	.button {
+	  letter-spacing:.5em;
+	  text-decoration:center;
+	  padding:0.75em 1.25em 0.75em 1.75em;
+	  border-color:black;
+	  border-width:2px;
+	  border-style:solid;
+	  white-space: nowrap;
+	  -webkit-transition: border-color 500ms ease, color 250ms ease;;
+	  -moz-transition: border-color 500ms ease, color 250ms ease;;
+	  -ms-transition: border-color 500ms ease, color 250ms ease;;
+	  -o-transition: border-color 500ms ease, color 250ms ease;;
+	  transition: border-color 500ms ease, color 250ms ease;;
+	}
+
+	.button:hover {
+	  color:#C71585;
+	  border-color:#C71585;
+	}
+
+	.button:before,
+	.button:after {
+	  border-style:solid;
+	  border-color:black;
+	  border-width:0;
+	  -webkit-transition: border-color 500ms ease;;
+	  -moz-transition: border-color 500ms ease;;
+	  -ms-transition: border-color 500ms ease;;
+	  -o-transition: border-color 500ms ease;;
+	  transition: border-color 500ms ease;;
+	}
+
+	a:hover .button:before,
+	a:hover .button:after {
+	  border-color:#C71585;
+	  text-decoration: none;
+	}
+
+	.battlestar {
+	  border-width:2px 0;
+	  position:relative;
+	  padding:0.75em 30px 0.75em 45px;
+	  margin:auto;
+	}
+
+	.battlestar:before {
+	  content: "";
+	  border-width:2px;
+	  border-right:0;
+	  border-left-width:50px;
+	  position:absolute;
+	  width:200px;
+	  -webkit-transform: perspective(300px) rotateY(-87deg);
+	  -moz-transform: perspective(300px) rotateY(-87deg);
+	  -ms-transform: perspective(300px) rotateY(-87deg);
+	  -o-transform: perspective(300px) rotateY(-87deg);
+	  transform: perspective(300px) rotateY(-87deg);
+	  top:13%;
+	  bottom:13%;
+	  left:-7.65em;
+	  right:0;
+	}
+
+	.battlestar:after {
+	  content: "";
+	  border-width:2px;
+	  border-left:0;
+	  border-right-width:20px;
+	  position:absolute;
+	  width:200px;
+	  -webkit-transform: perspective(300px) rotateY(87deg);
+	  -moz-transform: perspective(300px) rotateY(87deg);
+	  -ms-transform: perspective(300px) rotateY(87deg);
+	  -o-transform: perspective(300px) rotateY(87deg);
+	  transform: perspective(300px) rotateY(87deg);
+	  top:12%;
+	  bottom:12%;
+	  right:-7.65em;
+}
+
+/* Social Media */	
+	.fa: {
+		color:black;
+	}
+
+	.fa-twitter:hover{
+		color:#00aced;
+	}
+
+	.fa-instagram:hover{
+		color:#675144;
+	}
+
+	.fa-facebook:hover{
+		color:#3b5998;
+	}
+			
+
+
 
 

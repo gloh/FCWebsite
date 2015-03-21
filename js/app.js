@@ -3,4 +3,3 @@
 $('#address').hover(function(){ 
 	$("#address").toggleClass('.reveal') 
 })
-
