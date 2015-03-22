@@ -4,6 +4,7 @@
 	<link rel="stylesheet" href="http://s3.amazonaws.com/codecademy-content/courses/ltp/css/bootstrap.css">
 	<link type="text/css"; rel="stylesheet"; a href="css/stylesheet.css"/> 
 	<link href='http://fonts.googleapis.com/css?family=Josefin+Sans' rel='stylesheet' type='text/css'>
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
 	<link rel="stylesheet" href="http://maxcdn.bootstrapcdn.com/font-awesome/4.3.0/css/font-awesome.min.css">
 	<script src="js/app.js"></script>
 	<!-- Favicon -->
@@ -41,31 +42,35 @@
 		</nav>
 	</header>
 <!-- Email Us -->
-	<div class="row">
-		<div class="col-xs-12 col-sm-6 col-md-4 col-lg-4"></div> 
-			<div id="contact-text"> 
+<div class="container-parent">
+	<div class="row contact-text">
+		<div class="col-xs-12 col-sm-6 col-md-4 col-lg-5"></div> 
+			<div> 
 				<a href="mailto:hello@fcflamingo.com">Hello@FcFlamingo.com</a> 
 			</div>
-	</div>
+
 <!-- Offices -->
-	<div class="row left-buffer">
-		<div class="col-md-12">
-			<div class="col-md-2 address">
+	<div class="container-address">
+		<div class="row left-buffer">
+			<div class="col-xs-12 col-sm-12 col-md-6 col-lg-3 address">
 				<div id="SanMo">
 					<h1>Santa Monica</h1>
-					<div id="addressCA">
-						<ul>
-							<li><a href ="https://www.google.com/maps/place/1727+Sunset+Ave,+Santa+Monica,+CA+90405/@34.00767,-118.46308,3a,52.5y,350.56h,101.19t/data=!3m4!1e1!3m2!1sdYm4exLOx6GDZ113r0pzIA!2e0!4m2!3m1!1s0x80c2baddff8cf81f:0x600e28cec9d066b5!6m1!1e1"target="_blank">1727 Sunset Avenue</a>
-							</li>
-							<li><a href ="https://www.google.com/maps/place/1727+Sunset+Ave,+Santa+Monica,+CA+90405/@34.00767,-118.46308,3a,52.5y,350.56h,101.19t/data=!3m4!1e1!3m2!1sdYm4exLOx6GDZ113r0pzIA!2e0!4m2!3m1!1s0x80c2baddff8cf81f:0x600e28cec9d066b5!6m1!1e1"target="_blank">Santa Monica, 90405</a>
-							</li>
-							<li><a href ="https://www.google.com/maps/place/1727+Sunset+Ave,+Santa+Monica,+CA+90405/@34.00767,-118.46308,3a,52.5y,350.56h,101.19t/data=!3m4!1e1!3m2!1sdYm4exLOx6GDZ113r0pzIA!2e0!4m2!3m1!1s0x80c2baddff8cf81f:0x600e28cec9d066b5!6m1!1e1"target="_blank">Directions</a>
-							</li>
-						</ul>
-					</div>
+						<div id="addressCA">
+							<ul>
+								<li><a href ="https://www.google.com/maps/place/1727+Sunset+Ave,+Santa+Monica,+CA+90405/@34.00767,-118.46308,3a,52.5y,350.56h,101.19t/data=!3m4!1e1!3m2!1sdYm4exLOx6GDZ113r0pzIA!2e0!4m2!3m1!1s0x80c2baddff8cf81f:0x600e28cec9d066b5!6m1!1e1"target="_blank">1727 Sunset Avenue</a>
+								</li>
+								<li><a href ="https://www.google.com/maps/place/1727+Sunset+Ave,+Santa+Monica,+CA+90405/@34.00767,-118.46308,3a,52.5y,350.56h,101.19t/data=!3m4!1e1!3m2!1sdYm4exLOx6GDZ113r0pzIA!2e0!4m2!3m1!1s0x80c2baddff8cf81f:0x600e28cec9d066b5!6m1!1e1"target="_blank">Santa Monica, 90405</a>
+								</li>
+								<li><a href ="https://www.google.com/maps/place/1727+Sunset+Ave,+Santa+Monica,+CA+90405/@34.00767,-118.46308,3a,52.5y,350.56h,101.19t/data=!3m4!1e1!3m2!1sdYm4exLOx6GDZ113r0pzIA!2e0!4m2!3m1!1s0x80c2baddff8cf81f:0x600e28cec9d066b5!6m1!1e1"target="_blank">Directions</a>
+								</li>
+							</ul>
+						</div>
 				</div>
 			</div>
-			<div class="col-md-2 address">	
+		</div>
+
+		<div class="row left-buffer">
+			<div class="col-xs-12 col-sm-12 col-md-6 col-lg-3 address">	
 				<div id="NY">
 					<h1>New York City</h1>
 					<div id="addressNY">
@@ -80,12 +85,16 @@
 					</div>
 				</div>
 			</div>
-		</div>	
+		</div>
 	</div>
+</div>
 </body>
 
 
+<!--
 
 
-
+<div class="row">
+  <div class="span4">...</div>
+  <div class="span8">...</div>
 

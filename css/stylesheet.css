@@ -47,7 +47,7 @@
 }
 
 /* Contact Us */
-	#contact-text a {
+	.contact-text a {
 		font-family: "Josefin Sans";
 		color: black;
 		text-decoration: none;
@@ -56,57 +56,66 @@
 		margin-top: 50px;
 	}
 
-	#contact-text a:hover {
+	.contact-text a:hover {
 		color:#C71585;
 }
 
-#SanMo h1, #NY h1{
-	text-decoration: none;
-	font-family: "Josefin Sans";
-	font-size: 20px;
-	color:black;
-	margin-top:7px;
-	margin-bottom: 2px;
-}
+/* Office Addresses */
+	.row {
+		margin:auto;
+	}
 
-#SanMo a{
-	font-family: "Josefin Sans";
-	font-size: 14px;
-	color:black;
-	text-decoration: none;
-	margin:auto;
-	text-align: left;
-}
+	.container-parent {
+		padding-top: 70px;
+	}
 
-#NY li, #NY a {
-	font-family: "Josefin Sans";
-	font-size: 14px;
-	color:black;
-	text-decoration: none;
-	text-align: left;
-	list-style: none;
-}
+	.container-address {
+		padding: 30px 0 0 800px;
+	}
 
-ul {
-	padding:0;
-	list-style: none;
-}
+	#SanMo h1, #NY h1{
+		text-decoration: none;
+		font-family: "Josefin Sans";
+		font-size: 20px;
+		color:black;
+		margin-top:7px;
+		margin-bottom: 2px;
+		margin-right:-70px;
+	}
 
-.left-buffer {
-	padding: 0 0 0 56px;
-}
+	#SanMo a{
+		font-family: "Josefin Sans";
+		font-size: 14px;
+		color:black;
+		text-decoration: none;
+		margin:auto;
+		text-align: left;
 
-.address {
-	width:13%;
-}
+	}
 
-.buffer-vertical {
-	padding: 50px 0 40px;
-}
+	#NY li, #NY a {
+		font-family: "Josefin Sans";
+		font-size: 14px;
+		color:black;
+		text-decoration: none;
+		text-align: left;
+		list-style: none;
 
-.buffer-top {
-	padding: 50px 0 0 0 ;
-}
+	}
+
+	ul {
+		padding:0;
+		margin-right:-150px;
+		list-style: none;
+	}
+
+	.left-buffer {
+		padding: 0 0 0 50px;
+	}
+
+	.address {
+		width:13%;
+	}
 
 /* Request Button */
 	#request {
@@ -217,8 +226,13 @@ ul {
 	.fa-facebook:hover{
 		color:#3b5998;
 	}
-			
 
+/* Client Grid */
+	.buffer-vertical {
+		padding: 50px 0 40px;
+	}
 
-
+	.buffer-top {
+		padding: 50px 0 0 0 ;
+	}
 
